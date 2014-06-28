@@ -38,6 +38,17 @@ There are also three commandline options you can use:
 - dryrun: show changes but do not make any
 - replace: to remove any erb files that have been converted to haml
 
+You can use these in any order and just list them after the rake command.
+For example, to give you the full output of what would be changed without
+actually making any modifications: `rake haml:convert dryrun verbose`
+
+If you want to do the conversion, check you're happy with the haml files
+and then delete the erb files, you can do this:
+`rake haml:convert verbose` (verbose is optional here)
+`rake haml:convert replace`
+This will tell you what's been converted, and then delete the erb files.
+
+
 ## License
 
 Copyright (c) 2011-2013 David Leung and [contributors](https://github.com/dhl/erb2haml/contributors). See LICENSE for further details.
