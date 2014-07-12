@@ -3,7 +3,7 @@
 **erb2haml** gives your Rails app rake tasks to convert or replace all
 ERB view templates to [Haml](http://haml.info/).
 
-**Note: This is a copy of https://github.com/dhl/erb2haml with the rake task almost completely rewritten to add additional functionality **
+__Note: This is a copy of https://github.com/dhl/erb2haml with the rake task almost completely rewritten to add additional functionality__
 
 ## Getting Started
 
